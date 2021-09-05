@@ -56,5 +56,55 @@
       "fpm-alpine",
       "fpm"
     ]
+  },
+  "3.9": {
+    "version": "3.9.28",
+    "php": "7.4",
+    "aliases": [3.9],
+    "phpVersions": {
+      "7.4": {
+        "pecl": {
+          "APCu": "5.1.20",
+          "memcached": "3.1.5",
+          "redis": "5.3.4",
+          "mcrypt": "1.0.4"
+        }
+      },
+      "7.3": {
+        "pecl": {
+          "APCu": "5.1.20",
+          "memcached": "3.1.5",
+          "redis": "5.3.4",
+          "mcrypt": "1.0.4"
+        }
+      }
+    },
+    "variant": "apache",
+    "variants": [
+      "apache",
+      "fpm-alpine",
+      "fpm"
+    ]
+  },
+  "2.5": {
+    "version": "2.5.28",
+    "php": "5.6",
+    "aliases": [2],
+    "phpVersions": {
+      "5.6": {
+        "pecl": {
+          "APCu": "5.1.20",
+          "memcached": "3.1.5",
+          "redis": "5.3.4",
+          "mcrypt": "1.0.4"
+        }
+      }
+    },
+    "variant": "apache",
+    "variants": [
+      "apache",
+      "fpm-alpine",
+      "fpm"
+    ]
   }
 }
