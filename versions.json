@@ -22,10 +22,10 @@
       4,
       "latest"
     ],
-    "php": "7.0",
+    "php": "8.0",
     "phpVersions": [
       "7.4",
-      "7.0"
+      "8.0"
     ],
     "sha512": "8c85c444e9183bbe11660202c860b7c8bd5d50ddde6aa5212d183fecb58f04d42a0203f05a996dfc1fd8b037d9130dad89f38f5f4f7889561879df9809253877",
     "variant": "apache",
