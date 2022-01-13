@@ -36,7 +36,7 @@ export joomlaMaintainers
 for version; do
   export version
   # get this Joomla version details
-  joomlaVersionDetails="$(jq -r '.[env.version]' versions.json)"
+  joomlaVersionDetails="$(jq -r ".[env.version]" versions.json)"
   # get this Joomla version
   joomlaVersion="$(echo "${joomlaVersionDetails}" | jq -r '.version')"
   export joomlaVersion
