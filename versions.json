@@ -36,23 +36,4 @@
     ],
     "version": "4.0.5"
   }
-  // "3.0": {
-  //   "aliases": [
-  //     4,
-  //     "latest"
-  //   ],
-  //   "php": "6.0",
-  //   "phpVersions": [
-  //     "6.1",
-  //     "6.2"
-  //   ],
-  //   "sha512": "8c85c444e9183bbe11660202c860b7c8bd5d50ddde6aa5212d183fecb58f04d42a0203f05a996dfc1fd8b037d9130dad89f38f5f4f7889561879df9809253877",
-  //   "variant": "apache",
-  //   "variants": [
-  //     "apache",
-  //     "fpm-alpine",
-  //     "fpm"
-  //   ],
-  //   "version": "3.0.0"
-  //}
 }
